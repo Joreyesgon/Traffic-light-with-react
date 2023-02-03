@@ -1,0 +1,43 @@
+body {
+  background-image: url(https://images5.alphacoders.com/609/thumb-1920-609966.jpg);
+}
+
+.traffic-light{
+  background: black;
+  padding: 20px;
+  display: inline-block;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 60px;
+  margin-left: 45%;;
+  border-radius: 25px;
+  border: solid 2px white;
+}
+
+#circle{
+  margin: 10px 0;
+}
+
+.light{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: orange;
+  padding: 20px;
+}
+
+.green{
+  background: green;
+}
+
+.yellow{
+  background: yellow;
+}
+
+.red{
+  background: red;
+}
+
+.on{
+  box-shadow: 0px 0px 80px 3px #fff;
+}
